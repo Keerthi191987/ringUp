@@ -1,0 +1,36 @@
+server:
+  port: 2024    
+logging:
+  file.name: logs/auth-debug.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    root: "info"
+    org.springframework.web: "debug"
+    org.hibernate: "error"
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/auth
+    username: postgres
+    password: Admin
+    driverClassName: org.postgresql.Driver 
+  application:
+    name: auth-client 
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8761/eureka/
+  
+   
+    
+    
+
+
+    

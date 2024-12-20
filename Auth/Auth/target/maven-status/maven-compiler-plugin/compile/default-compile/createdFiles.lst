@@ -1,0 +1,9 @@
+com\AuthServer\Auth\AuthApplication.class
+com\AuthServer\Auth\model\MyUserDetails.class
+com\AuthServer\Auth\service\CustomUserDetailsService.class
+com\AuthServer\Auth\model\CustomUserDetails.class
+com\AuthServer\Auth\config\AuthConfig.class
+com\AuthServer\Auth\controller\AuthController.class
+com\AuthServer\Auth\repo\MyUserDetailsRepo.class
+com\AuthServer\Auth\service\JwtUtilService.class
+com\AuthServer\Auth\service\MyAuthUserDetailsService.class

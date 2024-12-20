@@ -1,0 +1,15 @@
+com\ringup\portal\ringup\services\RingUpUserDetailsService.class
+com\ringup\portal\ringup\config\JWTServices.class
+com\ringup\portal\ringup\controller\ContactController.class
+com\ringup\portal\ringup\Exceptions\CustomException.class
+com\ringup\portal\ringup\RingUpApplication.class
+com\ringup\portal\ringup\repo\UserDetailsRepo.class
+com\ringup\portal\ringup\model\ErrorResponse.class
+com\ringup\portal\ringup\repo\ContactRepo.class
+com\ringup\portal\ringup\config\Config.class
+com\ringup\portal\ringup\config\RingupFilter.class
+com\ringup\portal\ringup\config\SecurityConfig.class
+com\ringup\portal\ringup\Exceptions\ResourceNotFoundException.class
+com\ringup\portal\ringup\controller\UserController.class
+com\ringup\portal\ringup\model\Contact.class
+com\ringup\portal\ringup\model\MyUserDetails.class
